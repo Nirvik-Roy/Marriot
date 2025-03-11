@@ -5,6 +5,7 @@ import Login from './View/Authentication/Login'
 import Cart from './View/Cart/Cart'
 import Payment from './View/Payment/Payment'
 import Home from './View/Home/Home'
+import Confirmation from './View/Payment/Confirmation'
 function App() {
   return (
     <>
