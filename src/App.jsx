@@ -4,6 +4,7 @@ import Register from './View/Authentication/Register'
 import Login from './View/Authentication/Login'
 import Cart from './View/Cart/Cart'
 import Payment from './View/Payment/Payment'
+import Home from './View/Home/Home'
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Register/>}/>
       <Route path='/login' element={<Login/>}/>
+      <Route path='/home' element={<Home/>}/>
       <Route path='/cart' element={<Cart/>}/>
       <Route path='/payment' element={<Payment/>}/>
     </Routes>

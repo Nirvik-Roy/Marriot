@@ -14,3 +14,9 @@ h1,h2,h3,h4,h5,h6,p{
   padding-top: 0px;
   padding-bottom: 0px;
 }
+.universal_container{
+  width: 100%;
+  max-width: 80%;
+  min-width: 80%;
+  margin-inline: auto;
+}
