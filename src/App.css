@@ -16,7 +16,39 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .universal_container{
   width: 100%;
-  max-width: 80%;
-  min-width: 80%;
+  max-width: 73%;
+  min-width: 73%;
   margin-inline: auto;
+}
+.nav_wrapper{
+  padding: 40px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_div_main{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_right{
+  width: 100px;
+  height: 28px;
+  background-color: white;
+  border: 1px solid rgb(76, 66, 203);
+  color:rgb(76, 66, 203);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.nav_left h3{
+  font-size: 30px;
+  color: white;
+}
+.nav_left p{
+  font-size: 12px;
+  color: white;
 }
