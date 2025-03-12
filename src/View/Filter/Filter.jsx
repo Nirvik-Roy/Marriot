@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Filter.css'
 import Banner from '../Home/Banner'
 import PropertyType from './PropertyType';
+import FilterCards from './FilterCards';
 
 const Filter = () => {
   const [sortOrder, setSortOrder] = useState('lowToHigh');
@@ -15,7 +16,7 @@ const Filter = () => {
     setIsDropdownOpen(prev => !prev); // Open/Close dropdown
   };
   return (
-    <>
+    <div style={{marginBottom:'100px'}}>
       <Banner />
       <div className="universal_container">
       <div className="sort-container">
@@ -34,11 +35,11 @@ const Filter = () => {
 
       <div className="prototype-hotels-wrapper">
         <PropertyType />
-        
+        <FilterCards />
       </div>
-      
+      <button className='filter-submit-btn'>Submit</button>
       </div>
-    </>
+    </div>
   )
 }
 
