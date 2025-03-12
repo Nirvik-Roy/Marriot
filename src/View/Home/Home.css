@@ -551,3 +551,29 @@ font-weight: 600;
     height: 100%;
     object-fit: cover;
 }
+.accordian_wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    margin-top: 60px;
+
+}
+.accordian_question_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.accordian_question_wrapper .accordian_question{
+    font-size: 22px;
+    font-weight: 500;
+}
+.accordian_question_wrapper .accordian_answer{
+    color: rgba(88, 84, 84, 1);
+    font-size: 17px;
+    margin-top: 10px;
+    width: 85%;
+}
+.accordion_arrow img{
+    width: 20px;
+}

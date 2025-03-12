@@ -7,6 +7,8 @@ import BookWithConfidence from './BookWithConfidence.jsx'
 import GuestsLove from './GuestsLove.jsx'
 import TravelLibraries from './TravelLibraries.jsx'
 import Testimonial from './Testimonial.jsx'
+import Accordion3 from './Accordion3.jsx'
+import Footer from '../Layout/Footer.jsx'
 
 const Home = () => {
   return (
@@ -19,7 +21,8 @@ const Home = () => {
       <GuestsLove/>
       <TravelLibraries/>
       <Testimonial/>
-
+      <Accordion3/>
+      <Footer/>
     </>
   )
 }
