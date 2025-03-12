@@ -2,9 +2,11 @@ import React, { useState } from 'react'
 import './Payment.css'
 import hotelImg from '../../assets/Group 1171275323.png';
 import checkImg from '../../assets/check-button 1.png'
+import { useNavigate } from 'react-router-dom';
 
 const Payment = () => {
 
+  const navigate = useNavigate();
   const [selectedOffer, setSelectedOffer] = useState(1);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const offers = [
@@ -213,7 +215,7 @@ const Payment = () => {
               </div>
               <h2>Your payment is successfully done</h2>
               <p>Now you can enjoy your trip with your mates</p>
-              <button className="done-btn" onClick={() => setIsPopupOpen(false)}>
+              <button className="done-btn" onClick={() => {setIsPopupOpen(false); navigate("/confirmation");}}>
                 Done
               </button>
             </div>
