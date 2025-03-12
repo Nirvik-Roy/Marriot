@@ -6,6 +6,7 @@ import Cart from './View/Cart/Cart'
 import Payment from './View/Payment/Payment'
 import Home from './View/Home/Home'
 import Confirmation from './View/Payment/Confirmation'
+import Filter from './View/Filter/Filter'
 function App() {
   return (
     <>
@@ -16,7 +17,7 @@ function App() {
       <Route path='/home' element={<Home/>}/>
       <Route path='/cart' element={<Cart/>}/>
       <Route path='/payment' element={<Payment/>}/>
-      <Route path='/confirmation' element={<Confirmation />} />
+      <Route path='/filter' element={<Filter />} />
     </Routes>
    </BrowserRouter>
     </>
