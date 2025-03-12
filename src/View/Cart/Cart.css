@@ -4,6 +4,7 @@
 }
 .my-cart-txt{
   margin-top: 50px;
+  text-align: left;
 }
 .cart-item-wrapper{
   display: flex;

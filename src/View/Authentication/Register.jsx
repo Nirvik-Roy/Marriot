@@ -1,8 +1,10 @@
 import React from 'react'
 import './Register.css'
 import registerImg from '../../assets/image (7).png'
+import { useNavigate } from 'react-router-dom'
 
 const Register = () => {
+  const navigate = useNavigate();
   return (
     <div className='register-page'>
       <div className="register-page-wrapper">
@@ -29,7 +31,7 @@ const Register = () => {
                 <input type="text" placeholder='Enter confirm password' />
               </div>
 
-              <button className='register-btn'>Register</button>
+              <button className='register-btn' onClick={()=>navigate('/login')}>Register</button>
                 
               </form>
 

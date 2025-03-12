@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Confirmation = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="universal_container">
@@ -40,7 +42,7 @@ const Confirmation = () => {
         </p>
       </div>
       <div style={{display:'flex',justifyContent:'center'}}>
-      <button className="back-button">Go back to home</button>
+      <button className="back-button" onClick={()=>navigate('/home')}>Go back to home</button>
       </div>
       </div>
       </div>

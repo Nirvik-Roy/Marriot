@@ -1,12 +1,17 @@
 import React from 'react'
 import './Cart.css'
 import cartImg from '../../assets/image (6).png'
+import { useNavigate } from 'react-router-dom'
+import BookWithConfidence from '../Home/BookWithConfidence'
+import ClientInformation from '../Home/ClientInformation'
 
 const Cart = () => {
+  const navigate = useNavigate();
   return (
     <div style={{marginBottom:"100px"}}>
       <div className="cart-header">
       </div>
+      <ClientInformation />
       <div className="universal_container">
         <h2 className='my-cart-txt'>My Cart</h2>
         <div className="cart-item-wrapper">
@@ -135,7 +140,7 @@ const Cart = () => {
           </div>
         </div>
         </div>
-        <button className='cart-check-out-btn'>Check-out</button>
+        <button className='cart-check-out-btn' onClick={()=>navigate('/payment')}>Check-out</button>
       </div>
     </div>
   )

@@ -1,0 +1,71 @@
+.sort-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sort-div{
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 25%;
+  min-width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  cursor: pointer;
+}
+.sort-div i{
+  color: #585454;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.dropdown-menu p {
+  margin: 0;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.dropdown-menu p:hover {
+  background-color: #f0f0f0;
+}
+
+.prototype-hotels-wrapper{
+  display: flex;
+  column-gap: 30px;
+  margin-top: 50px;
+}
+
+.prototype-container{
+  width: 100%;
+  max-width: 35%;
+  min-width: 35%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px;
+}
+.property-name{
+  color: #251BD2;
+  font-size: 18px;
+}
+.properties-wrapper{
+  margin-top: 10px;
+}
+.properties-wrapper div{
+  display: flex ;
+  justify-content: space-between;
+  margin-top: 5px;
+}

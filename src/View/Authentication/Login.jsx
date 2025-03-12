@@ -1,8 +1,10 @@
 import React from 'react'
 import loginImg from '../../assets/image (7).png'
 import './Login.css'
+import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
+  const navigate = useNavigate();
   return (
     <div className='login-page'>
       <div className="login-page-wrapper">
@@ -23,7 +25,7 @@ const Login = () => {
                   <label htmlFor="">Password</label>
                   <input type="text" placeholder='Enter password' />
                 </div>
-                <button className='login-btn'>Login</button>
+                <button className='login-btn' onClick={()=>navigate('/home')}>Login</button>
               </form>
               <div className='form-divider'> <span>Or Register with</span></div>
               <div className="google-facebook">
