@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 const Confirmation = () => {
   const navigate = useNavigate();
   return (
-    <div>
+    <div className='confirmation-wrapper'>
       <div className="universal_container">
       <div className="confirmation-container">
       <p className='con-marriot'>Marriot</p>

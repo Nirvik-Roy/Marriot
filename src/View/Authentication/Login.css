@@ -78,3 +78,32 @@
 .login-btn:hover{
   background-color: #0f0b5e;
 }
+
+
+@media (max-width:1200px){
+  .login-wrapper-left{
+    display: none;
+  }
+  .login-wrapper-right{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width:768px){
+  .login-form-wrapper{
+    width: 100%;
+    max-width: 80%;
+    min-width: 80%;
+  }
+}
+
+@media (max-width:430px){
+  .login-form-wrapper{
+    width: 100%;
+    max-width: 90%;
+    min-width: 90%;
+  }
+}

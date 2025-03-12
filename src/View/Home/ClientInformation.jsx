@@ -24,7 +24,7 @@ const ClientInformation = () => {
                         justifyContent:'flex-start',
                         alignItems:'center',
                         columnGap:'8px'
-                    }}>8 Mar 25 <img style={{
+                    }}>8 Mar 25 <img className='arrow-down-img' style={{
                         width:'18px'
                     }} src={arrowdown}/> </h5>
                 </div>

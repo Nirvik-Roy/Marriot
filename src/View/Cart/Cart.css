@@ -71,3 +71,36 @@
 .cart-check-out-btn:hover{
   background-color: #0f0b5e;
 }
+
+
+@media (max-width:900px){
+  .cart-item-div{
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  .cart-image{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .cart-content{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+@media (max-width:550px){
+  .cart-details-wrapper{
+    flex-wrap: wrap;
+    row-gap: 5px;
+  }
+  .cart-content{
+    padding-left: 0px;
+  }
+  .cart-detail1{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
