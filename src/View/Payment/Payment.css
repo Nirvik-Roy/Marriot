@@ -394,13 +394,49 @@
   margin: 20px auto;
   width: 50%;
 }
+.payment-summary{
+  width: 50%;
+  margin: 20px auto;
+}
+.payment-summary h3{
+  font-size: 18px;
+}
+.payment-summary p{
+  font-size: 13px;
+}
 
 .back-button {
-  background-color: blue;
+  background-color: #251BD2;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 
+}
+.confirmation-message p, h2 {
+  text-align: center;
+}
+.confirmation-message h2{
+  color: #251BD2;
+  margin: 20px 0px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.confirmation-message p{
+  font-size: 13px;
+  width: 100%;
+  max-width: 70%;
+  min-width: 70%;
+  margin: 0 auto;
+}
+.payment-details h3{
+  font-size: 18px;
+  color: #251BD2;
+}
+.payment-details p{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
 }

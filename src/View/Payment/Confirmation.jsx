@@ -24,22 +24,24 @@ const Confirmation = () => {
       <div className="payment-details">
         <h3>Payment Details</h3>
         <p>
-          <strong>Date:</strong> 10th March, 2025
+          Date: <span>10th March, 2025</span>
         </p>
         <p>
-          <strong>Reference No:</strong> R457906470
+        Reference No: <span>R457906470</span>
         </p>
         <p>
-          <strong>Amount:</strong> $ 4,177
+          Amount: <span>$ 4,177</span>
         </p>
         <p>
-          <strong>Payment Method:</strong> Credit Card
+          Payment Method: <span>Credit Card</span>
         </p>
         <p>
-          <strong>Payment Status:</strong> Successful
+          Payment Status: <span>Successful</span>
         </p>
       </div>
+      <div style={{display:'flex',justifyContent:'center'}}>
       <button className="back-button">Go back to home</button>
+      </div>
       </div>
       </div>
     </div>
