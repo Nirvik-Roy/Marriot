@@ -66,7 +66,7 @@ const HotelRooms = () => {
          {[1,2].map((e,i)=>(
             <div className='right_hotel_1' style={ i ==0 ? {borderBottom:'1px solid rgba(0, 0, 0, 1)'} : {}}>
                 <button className='recommend_btn'>Recommended</button>
-                <div className='d-flex '>
+                <div className='d-flex hotel-details-wrapper0'>
                 <div className='right_hotel_details'>
                     <h6>Room with free cancellation | Breakfast only</h6>
                     <div className='bullet_point'>

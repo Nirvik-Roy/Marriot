@@ -17,6 +17,7 @@ import dollar from '../../assets/dollar-symbol (1) 1.png'
 import dollar2 from '../../assets/dollar-currency-symbol 10.png'
 import maps from '../../assets/google-maps 1.png'
 import HotelRooms from './HotelRooms'
+import UserRatingsForm from './UserRatingsForm'
 const Details = () => {
   return (
     <>
@@ -166,6 +167,22 @@ const Details = () => {
     </div>
 </div>
         <HotelRooms/>
+        <div className="property-container">
+      <h2 className="property-title">Property Rules</h2>
+      <p className="check-in-info">
+        Check-in: 11 AM Check-out: Next day 11 AM
+      </p>
+      <ul className="rules-list">
+        <li>• Pets are not allowed</li>
+        <li>• Outside food is not allowed</li>
+        <li>• Smoking within the premises is not allowed</li>
+        <li>• Unmarried couples are allowed</li>
+        <li>• ID card, driving license, PAN cards are allowed as ID proofs</li>
+        <li>• Couple Friendly</li>
+      </ul>
+      <p className="rules-note">Must read all the rules before entering/booking the property</p>
+    </div>
+        <UserRatingsForm />
       </div>
     </>
   )

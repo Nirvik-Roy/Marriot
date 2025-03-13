@@ -412,3 +412,373 @@
     min-width: 60%;
     
 }
+
+.user-rating-form{
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.user-rating-heading{
+    font-size: 16px;
+}
+.form-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+    color: #585454;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    font-weight: 500;
+}
+.form-buttons p:active{
+    border-bottom: #251BD2;
+}
+.rating-container{
+    display: flex;
+    margin-top: 20px;
+    column-gap: 50px;
+}
+.rating-left-div{
+    width: 100%;
+    max-width: 30%;
+    min-width: 30%;
+}
+.good-txt-div{
+    display: flex;
+    column-gap: 10px;
+}
+.rating{
+    padding: 5px 10px;
+    color: #FFF;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #251BD2;
+}
+.very-good-txt{
+    font-size: 13px;
+    font-weight: 500;
+}
+.rating-number{
+    font-size: 11px;
+}
+
+.rating-bars {
+    margin-top: 12px;
+  }
+  
+  .rating-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  
+  .rating-label {
+    flex: 1;
+    font-size: 12px;
+  }
+  
+  .progress-bar {
+    flex: 3;
+    height: 6px;
+    background: #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0 8px;
+  }
+  
+  .progress {
+    height: 100%;
+    background: #3f51b5;
+  }
+
+
+  .ratings-category-div{
+    margin-top: 40px;
+  }
+
+
+  .rating-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+
+  .rating-category-heading{
+    font-size: 16px;
+  }
+  .category-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .category-score {
+    background: #fff;
+    color: #3f51b5;
+    border: 1px solid #3f51b5;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .rating-right-div{
+    width: 100%;
+    max-width: 65%;
+    min-width: 65%;
+  }
+
+  .rating-filter-sort-div{
+    display: flex;
+  }
+  .filter1-div{
+    width: 100%;
+    max-width: 75%;
+    min-width: 75%;
+  }
+  .latest-btn{
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  .filterd-btns{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 15px;
+  }
+  .filterd-btns button{
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  .review-cards-wrapper{
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 15px; */
+  }
+
+
+  .review-card {
+    /* max-width: 500px; */
+    /* background: #fff; */
+    /* border-radius: 10px; */
+    padding: 16px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* font-family: Arial, sans-serif; */
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .review-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+  }
+  
+  .review-rating {
+    background-color: #4a46f8;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 5px;
+  }
+  
+  .review-info {
+    font-size: 12px;
+    color: #555;
+    /* margin-top: 4px; */
+  }
+  
+  .review-info .dot {
+    margin: 0 6px;
+  }
+  
+  .room-type {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0;
+    color: #222;
+  }
+  
+  .review-text {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 12px;
+    line-height: 1.5;
+  }
+  
+  .review-footer {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .helpful-link {
+    color: #4a46f8;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .helpful-link:hover {
+    text-decoration: underline;
+  }
+  
+  .thumbs-up {
+    font-size: 12px;
+  }
+
+  .property-container{
+    margin-top: 30px;
+  }
+  .property-title{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+
+  .check-in-info {
+    color: #251BD2;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  
+  .rules-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .rules-list li {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .rules-note {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #251BD2;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+
+  @media (max-width:1100px){
+    .hotels_details_wrapper{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .left_hotel_detalis_div{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .right_hotel_details_div{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .date_selection_wrapper{
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+    .hotel_room_card_wrapper{
+        flex-wrap: wrap;
+    }
+    .left_hotel_room_div{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .right_hotel_room_div{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%; 
+    }
+    .right_hotel_1{
+        padding: 20px 20px;
+    }
+    .rating-container{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .rating-left-div{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .rating-right-div{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%; 
+    }
+  }
+  
+
+  @media (max-width:999px){
+    .food_div h5{
+        font-size: 13px;
+    }
+  }
+
+
+  @media (max-width:768px){
+    .food_dinning_wrapper{
+        flex-wrap: wrap;
+        row-gap: 5px;
+    }
+    .food_div{
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+  }
+
+
+  @media (max-width:620px){
+    /* .date_select_tags_wrapper{
+        flex-wrap: wrap;
+        row-gap: 5px;
+    }
+    .date_select_tags_wrapper select{
+        width: 100%;
+        max-width: 100%;
+    } */
+
+    .date_select_tags_wrapper select{
+        padding: 2px 25px;
+    }
+    .hotel-details-wrapper0{
+        flex-wrap: wrap;
+    }
+    .right_hotel_details656{
+        padding-left: 0px;
+    }
+    .facilites_wrapper{
+        flex-direction: column;
+    }
+    .room_details_wrapper{
+        flex-direction: column;
+    }
+  }
