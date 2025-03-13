@@ -7,6 +7,7 @@ import Payment from './View/Payment/Payment'
 import Home from './View/Home/Home'
 import Confirmation from './View/Payment/Confirmation'
 import Filter from './View/Filter/Filter'
+import Details from './View/Details/Details'
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
       <Route path='/payment' element={<Payment/>}/>
       <Route path='/confirmation' element={<Confirmation />} />
       <Route path='/filter' element={<Filter />} />
+      <Route path='/details' element={<Details/>}/>
     </Routes>
    </BrowserRouter>
     </>
