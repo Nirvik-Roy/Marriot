@@ -65,7 +65,7 @@ const Footer = () => {
             <div className='footer_copyright_div' style={{
                 padding:'15px 0px'
             }}>
-                <div className='universal_container d-flex justify-content-between align-items-center'>
+                <div className='footer_copyright universal_container d-flex justify-content-between align-items-center'>
                     <p>Copyright@2024 CityBuild. All Right Reserved.</p>
                     <p>Designed and Developed by Powermove Digital</p>
                 </div>
