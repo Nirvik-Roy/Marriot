@@ -18,6 +18,7 @@ import dollar2 from '../../assets/dollar-currency-symbol 10.png'
 import maps from '../../assets/google-maps 1.png'
 import HotelRooms from './HotelRooms'
 import UserRatingsForm from './UserRatingsForm'
+import RoomTypes from './RoomTypes'
 const Details = () => {
   return (
     <>
@@ -167,6 +168,13 @@ const Details = () => {
     </div>
 </div>
         <HotelRooms/>
+        <button className='room-type-btn'>Room Types <i class="fa-solid fa-angle-down"></i></button>
+        <div className="calcellation-breakfast-payment-btns">
+            <button>Free Cancellation</button>
+            <button>Breakfast Included</button>
+            <button>Book with $0 payment</button>
+        </div>
+        <RoomTypes />
         <div className="property-container">
       <h2 className="property-title">Property Rules</h2>
       <p className="check-in-info">

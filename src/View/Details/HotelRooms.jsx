@@ -10,6 +10,7 @@ const HotelRooms = () => {
   return (
     <>
       <div className='hotel_room_card_wrapper'>
+        <button className='top-recommend-btn'>Recommended</button>
         <div className='left_hotel_room_div'>
             <div className='hotel_img_div'>
                 <img src={hotel}/>
