@@ -987,3 +987,32 @@
       min-width: 100%;
     }
   }
+
+  @media (max-width:500px){
+    .date_select_tags_wrapper{
+      flex-wrap: wrap;
+      row-gap: 15px;
+    }
+    .date_select_tags_wrapper select{
+      width: 100%;
+    }
+  }
+
+  @media (max-width:450px){
+    .uni-container2{
+      width: 100%;
+      max-width: 90%;
+      min-width: 90%;
+    }
+    .hotel_rating_div{
+      flex-wrap: wrap;
+      
+    }
+    .hotel_rating_div h2{
+      width: 100%;
+    }
+    .hotel_rating_div img{
+      width: 100px;
+      margin: 0 auto;
+    }
+  }

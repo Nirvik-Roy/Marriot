@@ -31,7 +31,7 @@ const Details = () => {
      <div className="cart-header">
       </div>
       <ClientInformation /> 
-      <div className='universal_container ' style={{
+      <div className='universal_container uni-container2' style={{
         paddingBottom:'80px'
       }}>
       <div className='hotel_rating_div'>
