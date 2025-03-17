@@ -1,4 +1,4 @@
-import React, { use } from 'react'
+import React, { useState } from 'react'
 import './Details.css'
 import ClientInformation from '../Home/ClientInformation'
 import star from '../../assets/Group 1171275450.png'
@@ -19,7 +19,9 @@ import maps from '../../assets/google-maps 1.png'
 import HotelRooms from './HotelRooms'
 import UserRatingsForm from './UserRatingsForm'
 import RoomTypes from './RoomTypes'
+import HotelLocation from './HotelLocation'
 const Details = () => {
+    const [isOpen, setIsOpen] = useState(false);
   return (
     <>
      <div className="cart-header">
@@ -168,13 +170,32 @@ const Details = () => {
     </div>
 </div>
         <HotelRooms/>
-        <button className='room-type-btn'>Room Types <i class="fa-solid fa-angle-down"></i></button>
+        <div className='rooms-type-dropdown'>
+
+        <button className='room-type-btn' onClick={() => setIsOpen(!isOpen)}>Room Types <i class="fa-solid fa-angle-down"></i></button>
+
+        {isOpen && (
+        <ul className="room-type-dropdown-menu">
+          {[
+            "Non AC Twin Room",
+            "AC Queen Room",
+            "Twin Room with Pool View",
+            "Premium Room",
+          ].map((room, index) => (
+            <li key={index} className="room-type-dropdown-item" onClick={() => setIsOpen(false)}>
+              {room}
+            </li>
+          ))}
+        </ul>
+      )}
+        </div>
         <div className="calcellation-breakfast-payment-btns">
             <button>Free Cancellation</button>
             <button>Breakfast Included</button>
             <button>Book with $0 payment</button>
         </div>
         <RoomTypes />
+        <HotelLocation />
         <div className="property-container">
       <h2 className="property-title">Property Rules</h2>
       <p className="check-in-info">
