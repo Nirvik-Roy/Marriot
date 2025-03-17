@@ -20,6 +20,10 @@ import HotelRooms from './HotelRooms'
 import UserRatingsForm from './UserRatingsForm'
 import RoomTypes from './RoomTypes'
 import HotelLocation from './HotelLocation'
+import guestImg1 from  '../../assets/guest1.png';
+import guestImg2 from  '../../assets/guest2.png';
+import guestImg3 from  '../../assets/guest3.png';
+import guestImg4 from  '../../assets/guest4.png';
 const Details = () => {
     const [isOpen, setIsOpen] = useState(false);
   return (
@@ -210,6 +214,15 @@ const Details = () => {
         <li>• Couple Friendly</li>
       </ul>
       <p className="rules-note">Must read all the rules before entering/booking the property</p>
+    </div>
+    <div className="photos-by-guest-section">
+        <h3>Photos by Guest</h3>
+        <div className="guest-photos-wrapper">
+            <img src={guestImg1} alt="" />
+            <img src={guestImg2} alt="" />
+            <img src={guestImg3} alt="" />
+            <img src={guestImg4} alt="" />
+        </div>
     </div>
         <UserRatingsForm />
       </div>

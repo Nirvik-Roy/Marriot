@@ -9,8 +9,9 @@ import bluecircle from '../../assets/Ellipse 28 (1).png'
 const HotelRooms = () => {
   return (
     <>
-      <div className='hotel_room_card_wrapper'>
+    <div className="hotel-room-card-container">
         <button className='top-recommend-btn'>Recommended</button>
+      <div className='hotel_room_card_wrapper'>
         <div className='left_hotel_room_div'>
             <div className='hotel_img_div'>
                 <img src={hotel}/>
@@ -112,6 +113,7 @@ const HotelRooms = () => {
         </div>
 
       </div>
+    </div>
     </>
   )
 }
