@@ -5,12 +5,14 @@ import arrowdown from '../../assets/right-arrow 1.png'
 import people from '../../assets/placeholder 1 (2).png'
 import 'react-calendar/dist/Calendar.css';
 import Calendar from 'react-calendar';
+import { useNavigate } from 'react-router-dom'
 const ClientInformation = () => {
     const [value, setValue] = useState(new Date());
 
     const [dropdown,setdropdown]=useState(false)
     const [dropdown2,setdropdown2]=useState(false)
-    const [dropdown3,setdropdown3]=useState(false)
+    const [dropdown3,setdropdown3]=useState(false);
+    const navigate = useNavigate()
   return (
     <>
       <div className='universal_container'>
@@ -85,7 +87,7 @@ const ClientInformation = () => {
                 </div>
             </div>
             <div className='information_div_2'>
-                <button>Search</button>
+                <button onClick={(()=>navigate('/filter'))}>Search</button>
             </div>
         </div>
       </div>
