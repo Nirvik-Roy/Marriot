@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Details.css'
 import ClientInformation from '../Home/ClientInformation'
 import star from '../../assets/Group 1171275450.png'
@@ -24,8 +24,13 @@ import guestImg1 from  '../../assets/guest1.png';
 import guestImg2 from  '../../assets/guest2.png';
 import guestImg3 from  '../../assets/guest3.png';
 import guestImg4 from  '../../assets/guest4.png';
+import { useNavigate } from 'react-router-dom'
 const Details = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const navigate = useNavigate();
+    useEffect(()=>{
+        window.scrollTo({top:0,behavior:'instant'})
+      },[])
   return (
     <>
      <div className="cart-header">
@@ -122,7 +127,7 @@ const Details = () => {
                 }} src={dollar}/>299 taxes and fees</h4>
                
                 <div className='button_wrapper_book_now'>
-                    <button>Book Now</button>
+                    <button onClick={()=>navigate('/cart')}>Book Now</button>
                 </div>
                 <div className='reviews_wrapper'>
                     <button>4.8</button>

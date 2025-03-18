@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Cart.css'
 import cartImg from '../../assets/image (6).png'
 import { useNavigate } from 'react-router-dom'
@@ -7,6 +7,9 @@ import ClientInformation from '../Home/ClientInformation'
 
 const Cart = () => {
   const navigate = useNavigate();
+  useEffect(()=>{
+      window.scrollTo({top:0,behavior:'instant'})
+    },[])
   return (
     <div style={{marginBottom:"100px"}}>
       <div className="cart-header">

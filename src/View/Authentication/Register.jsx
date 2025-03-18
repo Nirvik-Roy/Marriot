@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Register.css'
 import registerImg from '../../assets/image (7).png'
 import { useNavigate } from 'react-router-dom'
 
 const Register = () => {
   const navigate = useNavigate();
+  useEffect(()=>{
+      window.scrollTo({top:0,behavior:'instant'})
+    },[])
   return (
     <div className='register-page'>
       <div className="register-page-wrapper">

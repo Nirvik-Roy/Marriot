@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import loginImg from '../../assets/image (7).png'
 import './Login.css'
 import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
   const navigate = useNavigate();
+  useEffect(()=>{
+    window.scrollTo({top:0,behavior:'instant'})
+  },[])
   return (
     <div className='login-page'>
       <div className="login-page-wrapper">

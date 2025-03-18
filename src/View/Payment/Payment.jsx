@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Payment.css'
 import hotelImg from '../../assets/Group 1171275323.png';
 import checkImg from '../../assets/check-button 1.png'
 import { useNavigate } from 'react-router-dom';
 
 const Payment = () => {
+  useEffect(()=>{
+      window.scrollTo({top:0,behavior:'instant'})
+    },[])
 
   const navigate = useNavigate();
   const [selectedOffer, setSelectedOffer] = useState(1);

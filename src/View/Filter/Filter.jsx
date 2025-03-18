@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Filter.css'
 import Banner from '../Home/Banner'
 import PropertyType from './PropertyType';
 import FilterCards from './FilterCards';
 
 const Filter = () => {
+  useEffect(()=>{
+      window.scrollTo({top:0,behavior:'instant'})
+    },[])
   const [sortOrder, setSortOrder] = useState('lowToHigh');
   const [isDropdownOpen, setIsDropdownOpen] = useState(false); // Dropdown state
 

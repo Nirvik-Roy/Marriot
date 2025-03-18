@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Banner from './Banner.jsx'
 import BestHotels from './BestHotels.jsx'
 import Offer from './Offer.jsx'
@@ -11,6 +11,9 @@ import Accordion3 from './Accordion3.jsx'
 import Footer from '../Layout/Footer.jsx'
 
 const Home = () => {
+  useEffect(()=>{
+      window.scrollTo({top:0,behavior:'instant'})
+    },[])
   return (
     <>
       <Banner/>
